@@ -1,0 +1,192 @@
+/* main */
+html, body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  width: 210mm;
+}
+
+#viewport {
+  margin: 0;
+  padding: 5mm 10mm;
+  width: 190mm; 
+  /*border-right: 1px dotted black;*/
+}
+
+h3 {
+	font-size: 1.1em;
+	margin: 20px 0 10px;
+}
+
+footer {
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+/* Header */
+header #contact {
+	margin: 0;
+	padding: 0;
+	width: 40%;
+}
+
+header address {
+	font-size: 0.9em;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+
+header address div {
+	padding: 5px 0 5px 30px;
+}
+
+.postal_address {
+	background-image: url("../img/enveloppe.png");
+	background-repeat: no-repeat;
+	background-size: 7%;
+	background-position: left center;
+	padding-left: 30px;
+}
+
+.email {
+	background-image: url("../img/at.png");
+	background-repeat: no-repeat;
+	background-size: 5%;
+	background-position: left center;
+	padding-left: 30px;
+}
+
+.tel {
+	background-image: url("../img/phone.png");
+	background-repeat: no-repeat;
+	background-size: 5%;
+	background-position: left center;
+	padding-left: 30px;
+}
+
+header h1 {
+	float: right;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	display: inline-block;
+	width: 65%;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+
+	font-size: 1.5em;
+}
+
+section:first-of-type {
+	clear: both;
+}
+
+/* sections */
+h2 {
+	border-bottom: 2px solid black;
+	font-family: Verdana;
+	font-size: 1.2em;
+	width: 100%;
+	margin: 17px 0 0;
+}
+
+section {
+	width: 100%;
+}
+
+.tech_line div.aside {
+	font-family: Verdana;
+	font-size: 0.7em;
+	color: #447;
+	padding-left: 5px;
+}
+
+/* Technos */
+
+.tech_line {
+	display: table;
+	width: 100%;
+}
+
+.tech_line div {
+	display: table-cell;
+	width: 45%;
+	margin: 0;
+}
+
+.tech_line div:first-child {
+	padding-right: 5px;
+}
+.tech_line div:last-child {
+	padding-left: 5px;
+}
+
+#tech li {
+	list-style-type: none;	
+}
+
+#tech ul {
+	padding-left: 0;
+	margin: 10px 0 0;
+}
+
+.exp_level {
+	font-style: italic;
+}
+
+.proficient {
+	color: green;
+}
+
+.prev_exp {
+	color: orange;
+}
+
+.basic {
+	color: orangered;
+}
+
+/* jobs */
+dd {
+	color: #447;
+	margin-left: 30px;
+	display: list-item;
+	list-style-type: circle;
+	font-size: 0.9em;
+}
+
+/* Formation, centres d'intérêts */
+#studies {
+	width: 48%;
+	float: left;
+}
+#lang, #perso {
+	width: 48%;
+	float: right;
+}
+
+#perso h2 {
+	margin-top: 0;
+}
+
+#lang ul {
+	padding-left: 0;
+}
+
+#lang li {
+	list-style-type: none;
+	background-size: 20px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 5px;
+}
+
+#lang li.gb {
+	background-image: url(../img/gb_flag.png);
+}
+#lang li.fr {
+	background-image: url(../img/fr_flag.png);
+}
